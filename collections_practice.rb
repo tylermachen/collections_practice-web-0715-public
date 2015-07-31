@@ -11,6 +11,11 @@ def swap_elements(array)
   array
 end
 
+#bonues method
+def swap_elements_from_to(array, idx1, idx2)
+  array[idx1], array[idx2] = array[idx2], array[idx1]
+end
+
 def reverse_array(array)
   array.reverse
 end
